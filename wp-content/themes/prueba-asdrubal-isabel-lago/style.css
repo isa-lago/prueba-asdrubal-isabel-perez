@@ -1,0 +1,170 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.hero {
+    position: relative;
+    background-image: url('http://localhost/prueba-asdrubal-isabel-perez/wp-content/uploads/2025/04/imagen-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color:#8d096bf2;
+    z-index: 1;
+}
+
+.hero h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.internal-section {
+    padding: 80px 20px;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.internal-section .left img {
+    width: 350px;
+    height: auto;
+}
+
+.internal-section .internal-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+}
+
+.internal-section .left {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.internal-section .right {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.internal-section .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#8d096bed;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+}
+
+.internal-section .cta-button:hover {
+    background-color: #333;
+}
+
+.internal-section .cta-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.call-to-action {
+    position: relative;
+    background-image: url('http://localhost/prueba-asdrubal-isabel-perez/wp-content/uploads/2025/04/imagen-cta.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.call-to-action::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color:#8d096bf2;
+    z-index: 1;
+}
+
+.call-to-action h2,
+.call-to-action p,
+.call-to-action a {
+    position: relative;
+    z-index: 2;
+    margin: 10px 0;
+}
+
+.call-to-action {
+    color: white;
+}
+
+.call-to-action h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.call-to-action p {
+    color: white;
+    font-size: 17px;
+}
+
+.call-to-action .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white!important;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    width:200px;
+}
+
+.call-to-action .cta-button:hover {
+    background-color: white;
+    color: #333;
+}
+
+.call-to-action .cta-button a {
+    text-decoration: none;
+    color: inherit;
+}
