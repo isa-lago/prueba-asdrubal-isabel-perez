@@ -29,7 +29,7 @@ p {
 
 .hero {
     position: relative;
-    background-image: url('http://localhost/prueba-asdrubal-isabel-perez/wp-content/uploads/2025/04/imagen-hero.jpg');
+    background-image: url('images/imagen-hero.jpg');
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -114,7 +114,7 @@ p {
 
 .call-to-action {
     position: relative;
-    background-image: url('http://localhost/prueba-asdrubal-isabel-perez/wp-content/uploads/2025/04/imagen-cta.jpg');
+    background-image: url('images/imagen-cta.jpg');
     background-size: cover;
     background-position: center;
     padding: 80px 20px;
