@@ -2,7 +2,7 @@
     <div class="internal-container">
         <!-- Div izquierdo con imagen -->
         <div class="left">
-            <img src="http://localhost/prueba-asdrubal-isabel-perez/wp-content/uploads/2025/04/imagen-section-interna.png" alt="Imagen de sección interna">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/img-section-interna.webp" alt="Imagen Interna">
         </div>
         <!-- Div derecho con h2, descripción y botón -->
         <div class="right">
